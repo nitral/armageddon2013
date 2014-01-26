@@ -1,0 +1,222 @@
+/* CSS for Formatting Layout of Armageddon - 2013 */
+
+html
+{
+	background: url(./images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body
+{
+	margin: 0px;
+	font-family: bebas;
+	font-size: 25;
+	color: #000000;
+}
+
+a
+{
+	text-decoration: none;
+	color: #000000;
+}
+
+img
+{
+	border: 0px;
+	-moz-border: 0px;
+	-webkit-border: 0px;
+	-o-border: 0px;
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url(./fonts/bebas.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url(./fonts/Helvetica.ttf) format("truetype");
+}
+
+.wrapper
+{
+	width:1092.8px;
+	margin: auto;
+}
+
+#bannerBar
+{
+	margin-top: 30;
+	background: url(./images/bannerBack.png);
+	height: 100px;
+	min-width: 1092.8px;
+}
+
+.contentHolder
+{
+	width:69%;
+	height:585;
+	float:left;
+	background: rgba(220,220,220,0.71);
+	display: inline-block;
+}
+
+.headingText
+{
+	width:230;
+	height:38;
+	margin-bottom:0;
+	margin-top:0;
+	color:#000000;
+	text-indent: 7px;
+	background: url(./images/heading.png);
+}
+
+.descText
+{
+	background: url(./images/description.png);
+	width:223;
+	height:82;
+	font-family: "Helvetica";
+	font-size:15;
+	color:#FFFFFF;
+	padding-left: 7px;
+	display:none;
+	margin:0px;
+}
+
+.navPanel
+{
+	margin-top: 25;
+	margin-left: 15;
+}
+
+.catDesc
+{
+	margin-top: 20;
+	margin-left: 25;
+	margin-right: 10;
+	margin-bottom: 5;
+	height:200;
+	font-family: "Helvetica";
+	font-size:18;
+	background: rgba(240,240,240,0.29);
+	border: 1px solid #FFFFFF;
+	padding:5px 5px;
+	overflow:auto;
+}
+
+.descHead
+{
+	font-family: "Bebas";
+	font-size:23;
+}
+
+.sidebar
+{
+	width:31%;
+	float: left;
+	background-color: #dcdcdc;
+	margin-bottom: 25;
+	background: rgba(220,220,220,0.71);
+}
+
+#shortcuts
+{
+	margin-top:25;
+	margin-left: 15;
+	margin-right: 30;
+	margin-bottom: 20;
+}
+
+#regNow
+{
+	width:50%;
+	float: left;
+}
+
+#contactUs
+{
+	width:50%;
+	float: right;
+}
+
+#updates
+{
+	border: 4px solid #FFFFFF;
+	background-color: #d1d1d1;
+	text-align:center;
+	height: 115px;
+	margin-top:25;
+	margin-bottom:25;
+	margin-left:10;
+	margin-right:30;
+	font-size:15;
+}
+
+#sponsors
+{
+	border: 4px solid #FFFFFF;
+	background-color: #d1d1d1;
+	text-align:center;
+	height: 120px;
+	margin-top:25;
+	margin-bottom:25;
+	margin-left:10;
+	margin-right:30;
+	font-size:15;
+}
+
+#quickLinks
+{
+	border: 4px solid #FFFFFF;
+	background-color: #d1d1d1;
+	text-align:center;
+	height: 155px;
+	margin-top:18;
+	margin-bottom:18;
+	margin-left:10;
+	margin-right:30;
+	font-size:15;
+	font-family:"Helvetica";
+	padding: 2px 15px;
+}
+
+#bottomBar
+{
+	float:left;
+	width: 100%;
+	background: url(./images/bannerBack.png);
+	height: 3%;
+	margin-top:-30;
+	font-size:27;
+}
+
+.categoryDescription
+{
+	display: none;
+}
+#contentImage
+{
+	float:left;
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#contentNavPanel
+{
+	width: auto;
+	float: left;
+	margin-right: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.clearDiv
+{
+	clear: both;
+}
